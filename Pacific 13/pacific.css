@@ -1,0 +1,176 @@
+body{background-color: #FFFFFF;
+	background-image: url(background.jpg);
+	color: #666666;
+	font-family: Arial, Verdana, sans-serif;
+	margin-left: 100px;
+	margin-right: 100px;}
+
+h1{	background-color: #000033;
+	background-image: url(sunset.jpg);
+	background-repeat: no-repeat;
+	background-position: right;
+	padding-left: 20px;
+	height: 72px;
+	color: #FFFFFF;
+	font-family: Georgia, Verdana, sans-serif;
+	line-height: 200%;
+	margin-bottom: 0;}
+
+h2{	background-color: #FFFFFF;
+	color: #3399CC;}
+
+h3{color: #000033;}	
+
+dt{	color: #000033;
+	font-weight: bold;}
+	
+table{ border: 1px solid #3399CC;
+	  width: 90%;
+	  border-collapse: collapse;}
+	  
+td{text-align: center;}
+
+td, th{padding: 5px;
+	  border: 1px solid #3399CC;}
+	  
+.text{text-align: left;}
+
+altrow:nth-of-type(even){background-color: #F5FAFC;}
+
+.resort{	font-size: 1.2em;
+			color: #000033;}
+
+nav{	color: #3399CC;
+	padding: 5px;
+	float: left;
+	width: 160px;
+	padding: 20px 5px 0px 20px;
+	font-weight: bold;}
+
+footer{	font-style: italic;
+		size: .70em;
+		text-align: center;
+		padding: 10px;
+		background-color: #FFFFFF;
+		margin-left: 170px;
+		float: none;}
+
+#wrapper{	background-color: #90C7E3;
+			min-width: 700px;
+			max-width: 1024px;
+			width: 80%;
+			margin-right: auto;
+			margin-left: auto;
+			box-shadow: 5px 5px #999;}
+			
+main {padding-left: 20px;
+	 padding-right: 20px;
+	 background-color: #FFFFFF;
+	 margin-left: 170px;
+	 padding-top: 1px;
+	 padding-bottom: 1px;}
+			
+main img{padding-bottom: 20px;
+	 padding-right: 20px;
+	 float: left;}
+	 
+main ul{list-style-position: inside;	}
+
+.clear{clear: both;	}
+	 
+nav a {text-decoration: none; }
+nav a:link {color: #000033; }
+
+nav ul{list-style-type: none;
+	 margin: 0px;
+	 padding-left: 0px;}
+	 
+header, nav, main, footer{display: block;	}
+
+#mobile{display: none;}
+#desktop{display: inline;}
+
+label{float: left;
+	 display: block;
+	 width: 8em;
+	 padding-right: 5em;}
+	 
+input{display: block;
+	 margin-bottom: 1em;}
+
+textarea{display: block;
+	   margin-bottom: 1em;}
+	   
+#mySubmit{margin-left: 10em;}
+
+@media only screen and (max-width: 1024px) {
+	body{margin: 0;
+		 padding: 0;
+		 background-image: none;}
+	#wrapper{width: auto;
+			 min-width: 0;
+			 margin: 0;
+			 box-shadow: none;}
+	h1{margin: 0;}
+	nav{float: none;
+		width: auto;
+		padding: 0.5em;}
+	nav li{display: inline-block;}
+	nav a{padding: 1em;}
+	main{padding: 1em;
+		margin-left: 1em;
+		font-size: 90%;}
+	footer{margin: 0;}
+}
+
+@media only screen and (max-width: 768px){
+	h1{height: 100%;
+	   font-size: 1.5em;
+	   padding-left: 0.3em;}
+	nav{padding: 0;}
+	nav a{display: block;
+		 padding: 0.2em;
+		 font-size: 1.3em;
+		 border-bottom: 1px solid #330000;}
+	nav ul{margin: 0;
+		 padding: 0;}
+	nav li{display: block;
+		 padding: 0;
+		 margin: 0;}
+	main{padding: 0.1em 0 0.1em 0.4em;}
+	main img{display: none;
+			padding-right: 0;}
+	main ul{list-style-position: outside;}
+	footer{padding: 0;}
+	#mobile{display: inline;}
+	#desktop{display: none;}
+}
+
+main img, main video, main embed {float: left;
+							  padding-right: 20px;
+							  padding-bottom: 20px;}
+							  
+#gallery{position: relative;
+		 height: 250px;}
+		 
+#gallery ul { width: 300px; 
+              list-style-type: none;
+}
+#gallery li { display: inline-block; 
+			  padding: 10px;
+}
+#gallery img { border-style: none;
+			 float: none;}
+#gallery a { color: #a5a5a5;
+             text-decoration: none; 
+			 font-style: italic;
+}
+#gallery span { display: none;
+}
+#gallery a:hover span {   display: block;
+						position: absolute;
+                        top: 16px; 
+						left: 340px;
+                        text-align: center; 
+						opacity: 1;
+}
