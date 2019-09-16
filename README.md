@@ -1,2 +1,2 @@
 # Public-Trails-Resort
-HTML Website from OSTC (September 2017- February 2018)
+HTML Website from Oakland Schools Technical Campus (OSTC) (September 2017 - February 2018)
